@@ -1,2 +1,33 @@
+# Tệp và thư mục của Composer
+/vendor/
+composer.phar
+
+# Tệp môi trường - Rất quan trọng cho bảo mật!
+.env
+.env.local
+.env.*.local
+
+# Các tệp log
+*.log
+logs/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Các tệp tạm và cache
+/storage/framework/
+/bootstrap/cache/
+/node_modules/
+.tmp/
+temp/
+
+# Các tệp do hệ điều hành hoặc trình soạn thảo code tạo ra
+.idea/
+.vscode/
+*.swp
+*~
+.DS_Store
+
+# Các tệp tạm do kịch bản Auto-Sync-System tạo ra
 cookie_main.txt
 temp_drop_tables.sql
